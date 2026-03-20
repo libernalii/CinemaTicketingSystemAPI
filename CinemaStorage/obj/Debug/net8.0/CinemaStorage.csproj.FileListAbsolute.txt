@@ -1,0 +1,17 @@
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\bin\Debug\net8.0\CinemaStorage.deps.json
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\bin\Debug\net8.0\CinemaStorage.runtimeconfig.json
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\bin\Debug\net8.0\CinemaStorage.dll
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\bin\Debug\net8.0\CinemaStorage.pdb
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\bin\Debug\net8.0\CinemaCore.dll
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\bin\Debug\net8.0\CinemaCore.pdb
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\obj\Debug\net8.0\CinemaStorage.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\obj\Debug\net8.0\CinemaStorage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\obj\Debug\net8.0\CinemaStorage.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\obj\Debug\net8.0\CinemaStorage.AssemblyInfo.cs
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\obj\Debug\net8.0\CinemaStorage.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\obj\Debug\net8.0\CinemaSt.472D199C.Up2Date
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\obj\Debug\net8.0\CinemaStorage.dll
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\obj\Debug\net8.0\refint\CinemaStorage.dll
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\obj\Debug\net8.0\CinemaStorage.pdb
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\obj\Debug\net8.0\CinemaStorage.genruntimeconfig.cache
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\obj\Debug\net8.0\ref\CinemaStorage.dll

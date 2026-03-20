@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="CinemaAPI/CinemaAPI.csproj" />
+  <Project Path="CinemaCore/CinemaCore.csproj" />
+  <Project Path="CinemaStorage/CinemaStorage.csproj" />
+</Solution>

@@ -1,0 +1,76 @@
+@CinemaAPI_HostAddress = http://localhost:5237
+
+###
+
+# Register (створення користувача)
+POST {{CinemaAPI_HostAddress}}/auth/register
+Content-Type: application/json
+
+{
+  "name": "Admin",
+  "email": "admin@gmail.com",
+  "password": "123456",
+  "role": "Admin"
+}
+
+###
+
+# Login (отримання JWT)
+POST {{CinemaAPI_HostAddress}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "admin@gmail.com",
+  "password": "123456"
+}
+
+###
+
+# Get all movies (усі можуть бачити)
+GET {{CinemaAPI_HostAddress}}/movies
+Authorization: Bearer ТУТ_ТОКЕН
+
+###
+
+# Add new movie (Admin only)
+POST {{CinemaAPI_HostAddress}}/movies
+Content-Type: application/json
+Authorization: Bearer ТУТ_ТОКЕН
+
+{
+  "title": "Interstellar",
+  "genre": "Sci-Fi",
+  "durationMinutes": 169,
+  "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+}
+
+###
+
+# Update movie (Admin only)
+PUT {{CinemaAPI_HostAddress}}/movies/1
+Content-Type: application/json
+Authorization: Bearer ТУТ_ТОКЕН
+
+{
+  "title": "Interstellar Updated",
+  "genre": "Sci-Fi / Adventure",
+  "durationMinutes": 170,
+  "description": "Updated description with more details."
+}
+
+###
+
+# Buy a ticket (Customer)
+POST {{CinemaAPI_HostAddress}}/tickets
+Content-Type: application/json
+Authorization: Bearer ТУТ_ТОКЕН
+
+{
+  "movieId": 1
+}
+
+###
+
+# Cancel a ticket (Customer)
+DELETE {{CinemaAPI_HostAddress}}/tickets/1
+Authorization: Bearer ТУТ_ТОКЕН

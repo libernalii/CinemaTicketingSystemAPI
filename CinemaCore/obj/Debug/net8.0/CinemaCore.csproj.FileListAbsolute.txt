@@ -1,0 +1,11 @@
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaCore\bin\Debug\net8.0\CinemaCore.deps.json
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaCore\bin\Debug\net8.0\CinemaCore.dll
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaCore\bin\Debug\net8.0\CinemaCore.pdb
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaCore\obj\Debug\net8.0\CinemaCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaCore\obj\Debug\net8.0\CinemaCore.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaCore\obj\Debug\net8.0\CinemaCore.AssemblyInfo.cs
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaCore\obj\Debug\net8.0\CinemaCore.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaCore\obj\Debug\net8.0\CinemaCore.dll
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaCore\obj\Debug\net8.0\refint\CinemaCore.dll
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaCore\obj\Debug\net8.0\CinemaCore.pdb
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaCore\obj\Debug\net8.0\ref\CinemaCore.dll
