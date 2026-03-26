@@ -1,27 +1,27 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using CinemaStorage.Data;
+﻿using CinemaCore.Interfaces;
 using CinemaCore.Models;
+using CinemaStorage.Data;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CinemaAPI.Controllers
 {
-
     [ApiController]
     [Route("movies")]
     public class MoviesController : ControllerBase
     {
-        private readonly AppDbContext _context;
+        private readonly IMovieService _service;
 
-        public MoviesController(AppDbContext context)
+        public MoviesController(IMovieService service)
         {
-            _context = context;
+            _service = service;
         }
 
         // ВСІ БАЧАТЬ ФІЛЬМИ
         [HttpGet]
         public IActionResult GetAll()
         {
-            var movies = _context.Movies.ToList();
+            var movies = _service.GetAll();
             return Ok(movies);
         }
 
@@ -30,30 +30,17 @@ namespace CinemaAPI.Controllers
         [HttpPost]
         public IActionResult Create(Movie movie)
         {
-            _context.Movies.Add(movie);
-            _context.SaveChanges();
-
-            return Ok(movie);
+            var result = _service.Create(movie);
+            return Ok(result);
         }
 
         // ТІЛЬКИ ADMIN
         [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
-        public IActionResult Update(int id, Movie updatedMovie)
+        public IActionResult Update(int id, Movie movie)
         {
-            var movie = _context.Movies.Find(id);
-
-            if (movie == null)
-                return NotFound();
-
-            movie.Title = updatedMovie.Title;
-            movie.Genre = updatedMovie.Genre;
-            movie.DurationMinutes = updatedMovie.DurationMinutes;
-            movie.Description = updatedMovie.Description;
-
-            _context.SaveChanges();
-
-            return Ok(movie);
+            var result = _service.Update(id, movie);
+            return Ok(result);
         }
 
         // ТІЛЬКИ ADMIN
@@ -61,14 +48,7 @@ namespace CinemaAPI.Controllers
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            var movie = _context.Movies.Find(id);
-
-            if (movie == null)
-                return NotFound();
-
-            _context.Movies.Remove(movie);
-            _context.SaveChanges();
-
+            _service.Delete(id);
             return Ok("Deleted");
         }
     }

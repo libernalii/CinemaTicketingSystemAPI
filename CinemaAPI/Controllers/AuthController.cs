@@ -1,12 +1,7 @@
-﻿using CinemaCore.Models;
-using CinemaAPI.DTOs;
-using CinemaStorage.Data;
+﻿using CinemaCore.Interfaces;
+using CinemaCore.Models;
 using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text;
 
 namespace CinemaAPI.Controllers
 {
@@ -14,69 +9,25 @@ namespace CinemaAPI.Controllers
     [Route("auth")]
     public class AuthController : ControllerBase
     {
-        private readonly AppDbContext _context;
-        private readonly IConfiguration _config;
+        private readonly IAuthService _service;
 
-        public AuthController(AppDbContext context, IConfiguration config)
+        public AuthController(IAuthService service)
         {
-            _context = context;
-            _config = config;
+            _service = service;
         }
 
-        // REGISTER
         [HttpPost("register")]
         public IActionResult Register(User user)
         {
-            if (_context.Users.Any(u => u.Email == user.Email))
-                return BadRequest("User already exists");
-
-            _context.Users.Add(user);
-            _context.SaveChanges();
-
-            return Ok("User registered");
+            var result = _service.Register(user);
+            return Ok(result);
         }
 
-        // LOGIN
         [HttpPost("login")]
-        [HttpPost("login")]
-        public IActionResult Login([FromBody] CinemaAPI.DTOs.LoginRequest request)
+        public IActionResult Login(LoginRequest request)
         {
-            var user = _context.Users
-                .FirstOrDefault(u => u.Email == request.Email && u.Password == request.Password);
-
-            if (user == null)
-                return Unauthorized("Invalid credentials");
-
-            var token = GenerateJwtToken(user);
-
+            var token = _service.Login(request.Email, request.Password);
             return Ok(new { token });
-        }
-
-        private string GenerateJwtToken(User user)
-        {
-            var jwtSettings = _config.GetSection("Jwt");
-
-            var claims = new[]
-            {
-            new Claim(ClaimTypes.Name, user.Email),
-            new Claim(ClaimTypes.Role, user.Role),
-            new Claim("UserId", user.Id.ToString())
-        };
-
-            var key = new SymmetricSecurityKey(
-                Encoding.UTF8.GetBytes(jwtSettings["Key"]));
-
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-
-            var token = new JwtSecurityToken(
-                issuer: jwtSettings["Issuer"],
-                audience: jwtSettings["Audience"],
-                claims: claims,
-                expires: DateTime.Now.AddHours(2),
-                signingCredentials: creds
-            );
-
-            return new JwtSecurityTokenHandler().WriteToken(token);
         }
     }
 }

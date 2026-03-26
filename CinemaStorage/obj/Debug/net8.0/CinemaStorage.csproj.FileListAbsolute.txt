@@ -9,6 +9,7 @@ C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\obj\Debug\net8.0\C
 C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\obj\Debug\net8.0\CinemaStorage.AssemblyInfoInputs.cache
 C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\obj\Debug\net8.0\CinemaStorage.AssemblyInfo.cs
 C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\obj\Debug\net8.0\CinemaStorage.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\obj\Debug\net8.0\CinemaStorage.sourcelink.json
 C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\obj\Debug\net8.0\CinemaSt.472D199C.Up2Date
 C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\obj\Debug\net8.0\CinemaStorage.dll
 C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaStorage\obj\Debug\net8.0\refint\CinemaStorage.dll

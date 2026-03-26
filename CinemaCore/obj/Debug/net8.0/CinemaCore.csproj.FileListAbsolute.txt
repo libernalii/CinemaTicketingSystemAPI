@@ -5,6 +5,7 @@ C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaCore\obj\Debug\net8.0\Cine
 C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaCore\obj\Debug\net8.0\CinemaCore.AssemblyInfoInputs.cache
 C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaCore\obj\Debug\net8.0\CinemaCore.AssemblyInfo.cs
 C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaCore\obj\Debug\net8.0\CinemaCore.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaCore\obj\Debug\net8.0\CinemaCore.sourcelink.json
 C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaCore\obj\Debug\net8.0\CinemaCore.dll
 C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaCore\obj\Debug\net8.0\refint\CinemaCore.dll
 C:\Users\Admin\Desktop\CinemaAPI\CinemaSolution\CinemaCore\obj\Debug\net8.0\CinemaCore.pdb

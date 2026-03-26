@@ -1,9 +1,7 @@
 ﻿using CinemaAPI.DTOs;
-using CinemaCore.Models;
-using CinemaStorage.Data;
+using CinemaCore.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace CinemaAPI.Controllers
 {
@@ -11,34 +9,21 @@ namespace CinemaAPI.Controllers
     [Route("tickets")]
     public class TicketsController : ControllerBase
     {
-        private readonly AppDbContext _context;
+        private readonly ITicketService _service;
 
-        public TicketsController(AppDbContext context)
+        public TicketsController(ITicketService service)
         {
-            _context = context;
+            _service = service;
         }
 
-        // Купити квиток (Customer)
+        // Купити квиток
         [Authorize]
         [HttpPost]
-        public IActionResult BuyTicket([FromBody] CreateTicketRequest request)
+        public IActionResult Buy(CreateTicketRequest request)
         {
-            var userId = int.Parse(User.Claims.First(c => c.Type == "UserId").Value);
+            var userId = int.Parse(User.FindFirst("UserId").Value);
 
-            var movie = _context.Movies.Find(request.MovieId);
-            if (movie == null)
-                return NotFound("Movie not found");
-
-            var ticket = new Ticket
-            {
-                UserId = userId,
-                MovieId = request.MovieId,
-                PurchaseDate = DateTime.Now,
-                Status = "Active"
-            };
-
-            _context.Tickets.Add(ticket);
-            _context.SaveChanges();
+            var ticket = _service.Buy(userId, request.MovieId);
 
             return Ok(ticket);
         }
@@ -46,51 +31,35 @@ namespace CinemaAPI.Controllers
         // Мої квитки
         [Authorize]
         [HttpGet("user")]
-        public IActionResult GetMyTickets()
+        public IActionResult GetMy()
         {
-            var userId = int.Parse(User.Claims.First(c => c.Type == "UserId").Value);
+            var userId = int.Parse(User.FindFirst("UserId").Value);
 
-            var tickets = _context.Tickets
-                .Include(t => t.Movie)
-                .Where(t => t.UserId == userId)
-                .ToList();
+            var tickets = _service.GetUserTickets(userId);
 
             return Ok(tickets);
         }
 
-        // Всі квитки (Admin)
+        // Всі квитки
         [Authorize(Roles = "Admin")]
         [HttpGet]
         public IActionResult GetAll()
         {
-            var tickets = _context.Tickets
-                .Include(t => t.User)
-                .Include(t => t.Movie)
-                .ToList();
-
+            var tickets = _service.GetAll();
             return Ok(tickets);
         }
 
-        // Скасувати квиток
+        // Скасування
         [Authorize]
         [HttpDelete("{id}")]
         public IActionResult Cancel(int id)
         {
-            var userId = int.Parse(User.Claims.First(c => c.Type == "UserId").Value);
+            var userId = int.Parse(User.FindFirst("UserId").Value);
+            var isAdmin = User.IsInRole("Admin");
 
-            var ticket = _context.Tickets.Find(id);
+            var result = _service.Cancel(id, userId, isAdmin);
 
-            if (ticket == null)
-                return NotFound();
-
-            // тільки свій квиток або адмін
-            if (ticket.UserId != userId && !User.IsInRole("Admin"))
-                return Forbid();
-
-            ticket.Status = "Cancelled";
-            _context.SaveChanges();
-
-            return Ok(ticket);
+            return Ok(result);
         }
     }
 }

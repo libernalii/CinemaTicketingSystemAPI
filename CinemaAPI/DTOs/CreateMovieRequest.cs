@@ -1,18 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Net.Sockets;
-using System.Text;
-
-namespace CinemaCore.Models
+﻿namespace CinemaAPI.DTOs
 {
-    public class Movie
+    public class CreateMovieRequest
     {
-        public int Id { get; set; }
         public string Title { get; set; }
         public string Genre { get; set; }
         public int DurationMinutes { get; set; }
         public string Description { get; set; }
         public DateTime ShowTime { get; set; }
-        public List<Ticket> Tickets { get; set; }
     }
 }

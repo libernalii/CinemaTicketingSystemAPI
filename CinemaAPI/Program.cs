@@ -1,18 +1,30 @@
+using CinemaAPI.Filters;
+using CinemaAPI.Middleware;
+using CinemaCore.Interfaces;
 using CinemaStorage.Data;
-using Microsoft.EntityFrameworkCore;
+using CinemaStorage.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container
-builder.Services.AddControllers()
+builder.Services.AddControllers(options =>
+{
+    options.Filters.Add<GlobalExceptionFilter>();
+})
     .AddJsonOptions(options =>
     {
         options.JsonSerializerOptions.ReferenceHandler =
             System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
     });
+
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IMovieService, MovieService>();
+builder.Services.AddScoped<ITicketService, TicketService>();
 
 // DbContext через DI з правильним ConnectionString
 builder.Services.AddDbContext<AppDbContext>(options =>
@@ -51,6 +63,8 @@ builder.Services.AddSwaggerGen(c =>
 var app = builder.Build();
 
 // Middleware
+app.UseMiddleware<RequestLoggingMiddleware>();
+
 app.UseSwagger();
 app.UseSwaggerUI();
 
