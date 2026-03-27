@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{A881119C-6059-B754-11B9-E0DCD4343FDE}|CinemaAPI\\CinemaAPI.csproj|solutionrelative:cinemaapi\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|c:\\users\\admin\\desktop\\cinemasolution\\cinemacore\\interfaces\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|solutionrelative:cinemacore\\interfaces\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0EB8B001-6AB6-8966-30A3-F10FDA5911A6}|CinemaStorage\\CinemaStorage.csproj|c:\\users\\admin\\desktop\\cinemasolution\\cinemastorage\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EB8B001-6AB6-8966-30A3-F10FDA5911A6}|CinemaStorage\\CinemaStorage.csproj|solutionrelative:cinemastorage\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|c:\\users\\admin\\desktop\\cinemasolution\\cinemacore\\interfaces\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|solutionrelative:cinemacore\\interfaces\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A881119C-6059-B754-11B9-E0DCD4343FDE}|CinemaAPI\\CinemaAPI.csproj|c:\\users\\admin\\desktop\\cinemasolution\\cinemaapi\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -110,13 +110,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TicketService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaSolution\\CinemaStorage\\Services\\TicketService.cs",
               "RelativeDocumentMoniker": "CinemaStorage\\Services\\TicketService.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaSolution\\CinemaStorage\\Services\\TicketService.cs",
               "RelativeToolTip": "CinemaStorage\\Services\\TicketService.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwDcAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T13:25:58.907Z",
               "EditorCaption": ""
@@ -166,22 +166,22 @@
               "Title": "TicketsController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaSolution\\CinemaAPI\\Controllers\\TicketsController.cs",
               "RelativeDocumentMoniker": "CinemaAPI\\Controllers\\TicketsController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaSolution\\CinemaAPI\\Controllers\\TicketsController.cs*",
-              "RelativeToolTip": "CinemaAPI\\Controllers\\TicketsController.cs*",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCcAAAAmAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaSolution\\CinemaAPI\\Controllers\\TicketsController.cs",
+              "RelativeToolTip": "CinemaAPI\\Controllers\\TicketsController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-21T16:48:27.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ITicketService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaSolution\\CinemaCore\\Interfaces\\ITicketService.cs",
               "RelativeDocumentMoniker": "CinemaCore\\Interfaces\\ITicketService.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaSolution\\CinemaCore\\Interfaces\\ITicketService.cs",
               "RelativeToolTip": "CinemaCore\\Interfaces\\ITicketService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T13:25:15.717Z",
               "EditorCaption": ""

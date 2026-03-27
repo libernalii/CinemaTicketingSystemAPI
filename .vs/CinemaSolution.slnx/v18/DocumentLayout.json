@@ -114,12 +114,11 @@
               "Title": "TicketService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaSolution\\CinemaStorage\\Services\\TicketService.cs",
               "RelativeDocumentMoniker": "CinemaStorage\\Services\\TicketService.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaSolution\\CinemaStorage\\Services\\TicketService.cs*",
-              "RelativeToolTip": "CinemaStorage\\Services\\TicketService.cs*",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaSolution\\CinemaStorage\\Services\\TicketService.cs",
+              "RelativeToolTip": "CinemaStorage\\Services\\TicketService.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAgwDIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T13:25:58.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T13:25:58.907Z"
             },
             {
               "$type": "Document",
@@ -131,8 +130,7 @@
               "RelativeToolTip": "CinemaStorage\\Migrations\\20260327092720_Init.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T09:27:20.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T09:27:20.597Z"
             },
             {
               "$type": "Document",
@@ -144,8 +142,7 @@
               "RelativeToolTip": "CinemaStorage\\Services\\AuthService.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAmwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T13:30:36.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T13:30:36.905Z"
             },
             {
               "$type": "Document",
@@ -157,8 +154,7 @@
               "RelativeToolTip": "CinemaCore\\Interfaces\\IAuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T13:30:08.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T13:30:08.337Z"
             },
             {
               "$type": "Document",
@@ -166,8 +162,8 @@
               "Title": "TicketsController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaSolution\\CinemaAPI\\Controllers\\TicketsController.cs",
               "RelativeDocumentMoniker": "CinemaAPI\\Controllers\\TicketsController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaSolution\\CinemaAPI\\Controllers\\TicketsController.cs*",
-              "RelativeToolTip": "CinemaAPI\\Controllers\\TicketsController.cs*",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaSolution\\CinemaAPI\\Controllers\\TicketsController.cs",
+              "RelativeToolTip": "CinemaAPI\\Controllers\\TicketsController.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAgwDQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-21T16:48:27.584Z",
@@ -179,12 +175,11 @@
               "Title": "ITicketService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaSolution\\CinemaCore\\Interfaces\\ITicketService.cs",
               "RelativeDocumentMoniker": "CinemaCore\\Interfaces\\ITicketService.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaSolution\\CinemaCore\\Interfaces\\ITicketService.cs*",
-              "RelativeToolTip": "CinemaCore\\Interfaces\\ITicketService.cs*",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaSolution\\CinemaCore\\Interfaces\\ITicketService.cs",
+              "RelativeToolTip": "CinemaCore\\Interfaces\\ITicketService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T13:25:15.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T13:25:15.717Z"
             },
             {
               "$type": "Document",
@@ -196,8 +191,7 @@
               "RelativeToolTip": "CinemaAPI\\Controllers\\MoviesController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwBsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T16:48:21.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T16:48:21.852Z"
             },
             {
               "$type": "Document",
@@ -209,8 +203,7 @@
               "RelativeToolTip": "CinemaAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-27T09:57:23.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T09:57:23.458Z"
             },
             {
               "$type": "Document",
@@ -234,8 +227,7 @@
               "RelativeToolTip": "CinemaCore\\Models\\Ticket.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T16:49:22.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T16:49:22.561Z"
             },
             {
               "$type": "Document",
@@ -247,8 +239,7 @@
               "RelativeToolTip": "CinemaStorage\\Services\\MovieService.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAnwBkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T13:32:18.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T13:32:18.424Z"
             },
             {
               "$type": "Document",
@@ -260,8 +251,7 @@
               "RelativeToolTip": "CinemaCore\\Models\\Movie.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T11:35:17.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T11:35:17.382Z"
             },
             {
               "$type": "Document",
@@ -273,8 +263,7 @@
               "RelativeToolTip": "CinemaAPI\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAowBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T11:37:58.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T11:37:58.998Z"
             },
             {
               "$type": "Document",
