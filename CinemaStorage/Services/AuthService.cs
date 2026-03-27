@@ -1,5 +1,6 @@
 ﻿using CinemaCore.Interfaces;
 using CinemaCore.Models;
+using CinemaCore.Models.Requests;
 using CinemaStorage.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
@@ -20,8 +21,10 @@ namespace CinemaStorage.Services
             _config = config;
         }
 
-        public string Register(User user)
+        public string Register(UserRequest userR)
         {
+            var user = MapToUser(userR);
+
             if (_context.Users.Any(u => u.Email == user.Email))
                 throw new Exception("User already exists");
 
@@ -64,7 +67,7 @@ namespace CinemaStorage.Services
             new Claim(ClaimTypes.Name, user.Email),
             new Claim(ClaimTypes.Role, user.Role),
             new Claim("UserId", user.Id.ToString())
-        };
+            };
 
             var key = new SymmetricSecurityKey(
                 Encoding.UTF8.GetBytes(jwtSettings["Key"]));
@@ -80,6 +83,18 @@ namespace CinemaStorage.Services
             );
 
             return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
+        public User MapToUser(UserRequest user)
+        {
+            return new User()
+            {
+                Name = user.Name,
+                Email = user.Email,
+                Password = user.Password,
+                Role = user.Role,
+                Tickets = new List<Ticket>()
+            };
         }
     }
 }

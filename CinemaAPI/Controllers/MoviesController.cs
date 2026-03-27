@@ -1,6 +1,5 @@
 ﻿using CinemaCore.Interfaces;
-using CinemaCore.Models;
-using CinemaStorage.Data;
+using CinemaCore.Models.Requests;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -28,7 +27,7 @@ namespace CinemaAPI.Controllers
         // ТІЛЬКИ ADMIN
         [Authorize(Roles = "Admin")]
         [HttpPost]
-        public IActionResult Create(Movie movie)
+        public IActionResult Create(MovieRequest movie)
         {
             var result = _service.Create(movie);
             return Ok(result);
@@ -37,7 +36,7 @@ namespace CinemaAPI.Controllers
         // ТІЛЬКИ ADMIN
         [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
-        public IActionResult Update(int id, Movie movie)
+        public IActionResult Update(int id, MovieRequest movie)
         {
             var result = _service.Update(id, movie);
             return Ok(result);

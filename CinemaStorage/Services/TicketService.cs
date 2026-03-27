@@ -1,5 +1,6 @@
 ﻿using CinemaCore.Interfaces;
 using CinemaCore.Models;
+using CinemaCore.Models.Requests;
 using CinemaStorage.Data;
 
 namespace CinemaStorage.Services
@@ -56,6 +57,19 @@ namespace CinemaStorage.Services
             _context.SaveChanges();
 
             return ticket;
+        }
+
+        public Ticket MapToTicket(TicketRequest ticket)
+        {
+            return new Ticket()
+            {
+                UserId = ticket.UserId,
+                MovieId = ticket.MovieId,
+                PurchaseDate = ticket.PurchaseDate,
+                Status = ticket.Status,
+                User = new User(),
+                Movie = new Movie(),
+            };
         }
     }
 }

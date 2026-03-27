@@ -1,5 +1,6 @@
 ﻿using CinemaCore.Interfaces;
 using CinemaCore.Models;
+using CinemaCore.Models.Requests;
 using CinemaStorage.Data;
 
 namespace CinemaStorage.Services
@@ -18,14 +19,15 @@ namespace CinemaStorage.Services
             return _context.Movies.ToList();
         }
 
-        public Movie Create(Movie movie)
+        public Movie Create(MovieRequest movieR)
         {
+            var movie = MapToMovie(movieR);
             _context.Movies.Add(movie);
             _context.SaveChanges();
             return movie;
         }
 
-        public Movie Update(int id, Movie updated)
+        public Movie Update(int id, MovieRequest updated)
         {
             var movie = _context.Movies.Find(id);
             if (movie == null) throw new Exception("Not found");
@@ -46,6 +48,19 @@ namespace CinemaStorage.Services
 
             _context.Movies.Remove(movie);
             _context.SaveChanges();
+        }
+
+        public Movie MapToMovie(MovieRequest movie)
+        {
+            return new Movie()
+            {
+                Title = movie.Title,
+                Genre = movie.Genre,
+                DurationMinutes = movie.DurationMinutes,
+                Description = movie.Description,
+                ShowTime = movie.ShowTime,
+                Tickets = new List<Ticket>()
+            };
         }
     }
 }

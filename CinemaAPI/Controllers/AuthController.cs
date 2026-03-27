@@ -1,5 +1,6 @@
 ﻿using CinemaCore.Interfaces;
 using CinemaCore.Models;
+using CinemaCore.Models.Requests;
 using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,7 +18,7 @@ namespace CinemaAPI.Controllers
         }
 
         [HttpPost("register")]
-        public IActionResult Register(User user)
+        public IActionResult Register(UserRequest user)
         {
             var result = _service.Register(user);
             return Ok(result);

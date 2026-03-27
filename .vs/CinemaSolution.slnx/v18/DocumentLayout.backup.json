@@ -3,64 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A881119C-6059-B754-11B9-E0DCD4343FDE}|CinemaAPI\\CinemaAPI.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A881119C-6059-B754-11B9-E0DCD4343FDE}|CinemaAPI\\CinemaAPI.csproj|solutionrelative:cinemaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EB8B001-6AB6-8966-30A3-F10FDA5911A6}|CinemaStorage\\CinemaStorage.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemastorage\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EB8B001-6AB6-8966-30A3-F10FDA5911A6}|CinemaStorage\\CinemaStorage.csproj|solutionrelative:cinemastorage\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemacore\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|solutionrelative:cinemacore\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A881119C-6059-B754-11B9-E0DCD4343FDE}|CinemaAPI\\CinemaAPI.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemaapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A881119C-6059-B754-11B9-E0DCD4343FDE}|CinemaAPI\\CinemaAPI.csproj|solutionrelative:cinemaapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A881119C-6059-B754-11B9-E0DCD4343FDE}|CinemaAPI\\CinemaAPI.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemaapi\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A881119C-6059-B754-11B9-E0DCD4343FDE}|CinemaAPI\\CinemaAPI.csproj|solutionrelative:cinemaapi\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A881119C-6059-B754-11B9-E0DCD4343FDE}|CinemaAPI\\CinemaAPI.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemaapi\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A881119C-6059-B754-11B9-E0DCD4343FDE}|CinemaAPI\\CinemaAPI.csproj|solutionrelative:cinemaapi\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EB8B001-6AB6-8966-30A3-F10FDA5911A6}|CinemaStorage\\CinemaStorage.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemastorage\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EB8B001-6AB6-8966-30A3-F10FDA5911A6}|CinemaStorage\\CinemaStorage.csproj|solutionrelative:cinemastorage\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A881119C-6059-B754-11B9-E0DCD4343FDE}|CinemaAPI\\CinemaAPI.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemaapi\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A881119C-6059-B754-11B9-E0DCD4343FDE}|CinemaAPI\\CinemaAPI.csproj|solutionrelative:cinemaapi\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemacore\\interfaces\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|solutionrelative:cinemacore\\interfaces\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EB8B001-6AB6-8966-30A3-F10FDA5911A6}|CinemaStorage\\CinemaStorage.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemastorage\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EB8B001-6AB6-8966-30A3-F10FDA5911A6}|CinemaStorage\\CinemaStorage.csproj|solutionrelative:cinemastorage\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemacore\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|solutionrelative:cinemacore\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemacore\\interfaces\\i\u043Covieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|solutionrelative:cinemacore\\interfaces\\i\u043Covieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EB8B001-6AB6-8966-30A3-F10FDA5911A6}|CinemaStorage\\CinemaStorage.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemastorage\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EB8B001-6AB6-8966-30A3-F10FDA5911A6}|CinemaStorage\\CinemaStorage.csproj|solutionrelative:cinemastorage\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemacore\\interfaces\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|solutionrelative:cinemacore\\interfaces\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemacore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|solutionrelative:cinemacore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EB8B001-6AB6-8966-30A3-F10FDA5911A6}|CinemaStorage\\CinemaStorage.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemastorage\\cinemastorage.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0EB8B001-6AB6-8966-30A3-F10FDA5911A6}|CinemaStorage\\CinemaStorage.csproj|solutionrelative:cinemastorage\\cinemastorage.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{0EB8B001-6AB6-8966-30A3-F10FDA5911A6}|CinemaStorage\\CinemaStorage.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemastorage\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB8B001-6AB6-8966-30A3-F10FDA5911A6}|CinemaStorage\\CinemaStorage.csproj|solutionrelative:cinemastorage\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemacore\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|solutionrelative:cinemacore\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0EB8B001-6AB6-8966-30A3-F10FDA5911A6}|CinemaStorage\\CinemaStorage.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemastorage\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB8B001-6AB6-8966-30A3-F10FDA5911A6}|CinemaStorage\\CinemaStorage.csproj|solutionrelative:cinemastorage\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemacore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|solutionrelative:cinemacore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemacore\\models\\requests\\ticketrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|solutionrelative:cinemacore\\models\\requests\\ticketrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB8B001-6AB6-8966-30A3-F10FDA5911A6}|CinemaStorage\\CinemaStorage.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemastorage\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB8B001-6AB6-8966-30A3-F10FDA5911A6}|CinemaStorage\\CinemaStorage.csproj|solutionrelative:cinemastorage\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemacore\\models\\requests\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|solutionrelative:cinemacore\\models\\requests\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemacore\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|solutionrelative:cinemacore\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A881119C-6059-B754-11B9-E0DCD4343FDE}|CinemaAPI\\CinemaAPI.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A881119C-6059-B754-11B9-E0DCD4343FDE}|CinemaAPI\\CinemaAPI.csproj|solutionrelative:cinemaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemacore\\models\\requests\\movierequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBD3605-A867-80CA-8269-CB82E62FB560}|CinemaCore\\CinemaCore.csproj|solutionrelative:cinemacore\\models\\requests\\movierequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB8B001-6AB6-8966-30A3-F10FDA5911A6}|CinemaStorage\\CinemaStorage.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemastorage\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB8B001-6AB6-8966-30A3-F10FDA5911A6}|CinemaStorage\\CinemaStorage.csproj|solutionrelative:cinemastorage\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB8B001-6AB6-8966-30A3-F10FDA5911A6}|CinemaStorage\\CinemaStorage.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemastorage\\cinemastorage.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0EB8B001-6AB6-8966-30A3-F10FDA5911A6}|CinemaStorage\\CinemaStorage.csproj|solutionrelative:cinemastorage\\cinemastorage.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A881119C-6059-B754-11B9-E0DCD4343FDE}|CinemaAPI\\CinemaAPI.csproj|c:\\users\\admin\\desktop\\cinemaapi\\cinemasolution\\cinemaapi\\middleware\\requestloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,92 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "CinemaStorage\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\Services\\AuthService.cs",
-              "RelativeToolTip": "CinemaStorage\\Services\\AuthService.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAcwDoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T13:30:36.905Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaCore\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "CinemaCore\\Interfaces\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaCore\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "CinemaCore\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T13:30:08.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TicketService.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\Services\\TicketService.cs",
-              "RelativeDocumentMoniker": "CinemaStorage\\Services\\TicketService.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\Services\\TicketService.cs",
-              "RelativeToolTip": "CinemaStorage\\Services\\TicketService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T13:25:58.907Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Program.cs",
-              "RelativeDocumentMoniker": "CinemaAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Program.cs",
-              "RelativeToolTip": "CinemaAPI\\Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAwEwAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T11:29:55.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "CinemaAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "CinemaAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T11:37:58.998Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MoviesController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Controllers\\MoviesController.cs",
-              "RelativeDocumentMoniker": "CinemaAPI\\Controllers\\MoviesController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Controllers\\MoviesController.cs",
-              "RelativeToolTip": "CinemaAPI\\Controllers\\MoviesController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAcwAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T16:48:21.852Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TicketsController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Controllers\\TicketsController.cs",
-              "RelativeDocumentMoniker": "CinemaAPI\\Controllers\\TicketsController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Controllers\\TicketsController.cs",
-              "RelativeToolTip": "CinemaAPI\\Controllers\\TicketsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T16:48:27.584Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "ITicketService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaCore\\Interfaces\\ITicketService.cs",
               "RelativeDocumentMoniker": "CinemaCore\\Interfaces\\ITicketService.cs",
@@ -191,103 +118,140 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MovieService.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\Services\\MovieService.cs",
-              "RelativeDocumentMoniker": "CinemaStorage\\Services\\MovieService.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\Services\\MovieService.cs",
-              "RelativeToolTip": "CinemaStorage\\Services\\MovieService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "CinemaAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "CinemaAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T13:32:18.424Z"
+              "WhenOpened": "2026-03-21T11:37:58.998Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "I\u041CovieService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaCore\\Interfaces\\I\u041CovieService.cs",
               "RelativeDocumentMoniker": "CinemaCore\\Interfaces\\I\u041CovieService.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaCore\\Interfaces\\I\u041CovieService.cs",
               "RelativeToolTip": "CinemaCore\\Interfaces\\I\u041CovieService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T13:31:54.913Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CinemaStorage.csproj",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\CinemaStorage.csproj",
-              "RelativeDocumentMoniker": "CinemaStorage\\CinemaStorage.csproj",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\CinemaStorage.csproj",
-              "RelativeToolTip": "CinemaStorage\\CinemaStorage.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-21T16:49:23.948Z"
+              "DocumentIndex": 3,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaCore\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "CinemaCore\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaCore\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "CinemaCore\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:30:08.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
+              "Title": "TicketsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Controllers\\TicketsController.cs",
+              "RelativeDocumentMoniker": "CinemaAPI\\Controllers\\TicketsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Controllers\\TicketsController.cs",
+              "RelativeToolTip": "CinemaAPI\\Controllers\\TicketsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T16:48:27.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "CinemaAPI\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "CinemaAPI\\Controllers\\MoviesController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T16:48:21.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TicketService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\Services\\TicketService.cs",
+              "RelativeDocumentMoniker": "CinemaStorage\\Services\\TicketService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\Services\\TicketService.cs",
+              "RelativeToolTip": "CinemaStorage\\Services\\TicketService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:25:58.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Ticket.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaCore\\Models\\Ticket.cs",
               "RelativeDocumentMoniker": "CinemaCore\\Models\\Ticket.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaCore\\Models\\Ticket.cs",
               "RelativeToolTip": "CinemaCore\\Models\\Ticket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-21T16:49:22.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "CinemaStorage\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\Services\\AuthService.cs",
+              "RelativeToolTip": "CinemaStorage\\Services\\AuthService.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAABkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:30:36.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaCore\\Models\\User.cs",
               "RelativeDocumentMoniker": "CinemaCore\\Models\\User.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaCore\\Models\\User.cs",
               "RelativeToolTip": "CinemaCore\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-21T16:49:24.708Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "GlobalExceptionFilter.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Filters\\GlobalExceptionFilter.cs",
-              "RelativeDocumentMoniker": "CinemaAPI\\Filters\\GlobalExceptionFilter.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Filters\\GlobalExceptionFilter.cs",
-              "RelativeToolTip": "CinemaAPI\\Filters\\GlobalExceptionFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T11:30:57.688Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "CinemaStorage\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "CinemaStorage\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "TicketRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaCore\\Models\\Requests\\TicketRequest.cs",
+              "RelativeDocumentMoniker": "CinemaCore\\Models\\Requests\\TicketRequest.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaCore\\Models\\Requests\\TicketRequest.cs",
+              "RelativeToolTip": "CinemaCore\\Models\\Requests\\TicketRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T16:49:28.899Z"
+              "WhenOpened": "2026-03-26T16:01:54.13Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RequestLoggingMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Middleware\\RequestLoggingMiddleware.cs",
-              "RelativeDocumentMoniker": "CinemaAPI\\Middleware\\RequestLoggingMiddleware.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Middleware\\RequestLoggingMiddleware.cs",
-              "RelativeToolTip": "CinemaAPI\\Middleware\\RequestLoggingMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABKAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "UserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaCore\\Models\\Requests\\UserRequest.cs",
+              "RelativeDocumentMoniker": "CinemaCore\\Models\\Requests\\UserRequest.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaCore\\Models\\Requests\\UserRequest.cs",
+              "RelativeToolTip": "CinemaCore\\Models\\Requests\\UserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T11:29:35.35Z"
+              "WhenOpened": "2026-03-26T15:57:03.177Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaCore\\Models\\Movie.cs",
               "RelativeDocumentMoniker": "CinemaCore\\Models\\Movie.cs",
@@ -299,7 +263,91 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\Services\\MovieService.cs",
+              "RelativeDocumentMoniker": "CinemaStorage\\Services\\MovieService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\Services\\MovieService.cs",
+              "RelativeToolTip": "CinemaStorage\\Services\\MovieService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:32:18.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Program.cs",
+              "RelativeDocumentMoniker": "CinemaAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Program.cs",
+              "RelativeToolTip": "CinemaAPI\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwEwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T11:29:55.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MovieRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaCore\\Models\\Requests\\MovieRequest.cs",
+              "RelativeDocumentMoniker": "CinemaCore\\Models\\Requests\\MovieRequest.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaCore\\Models\\Requests\\MovieRequest.cs",
+              "RelativeToolTip": "CinemaCore\\Models\\Requests\\MovieRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T15:48:59.637Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 17,
+              "Title": "CinemaStorage.csproj",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\CinemaStorage.csproj",
+              "RelativeDocumentMoniker": "CinemaStorage\\CinemaStorage.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\CinemaStorage.csproj",
+              "RelativeToolTip": "CinemaStorage\\CinemaStorage.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-21T16:49:23.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GlobalExceptionFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Filters\\GlobalExceptionFilter.cs",
+              "RelativeDocumentMoniker": "CinemaAPI\\Filters\\GlobalExceptionFilter.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Filters\\GlobalExceptionFilter.cs",
+              "RelativeToolTip": "CinemaAPI\\Filters\\GlobalExceptionFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T11:30:57.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CinemaStorage\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "CinemaStorage\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T16:49:28.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RequestLoggingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Middleware\\RequestLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "CinemaAPI\\Middleware\\RequestLoggingMiddleware.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\Middleware\\RequestLoggingMiddleware.cs",
+              "RelativeToolTip": "CinemaAPI\\Middleware\\RequestLoggingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T11:29:35.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\DTOs\\LoginRequest.cs",
               "RelativeDocumentMoniker": "CinemaAPI\\DTOs\\LoginRequest.cs",
@@ -311,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "CreateMovieRequest.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaAPI\\DTOs\\CreateMovieRequest.cs",
               "RelativeDocumentMoniker": "CinemaAPI\\DTOs\\CreateMovieRequest.cs",
