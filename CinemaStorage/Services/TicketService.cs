@@ -30,6 +30,9 @@ namespace CinemaStorage.Services
             _context.Tickets.Add(ticket);
             _context.SaveChanges();
 
+            var user = _context.Users.Find(userId);
+            ticket.User = user;
+
             return ticket;
         }
 
@@ -45,13 +48,10 @@ namespace CinemaStorage.Services
             return _context.Tickets.ToList();
         }
 
-        public Ticket Cancel(int id, int userId, bool isAdmin)
+        public Ticket Cancel(int id)
         {
             var ticket = _context.Tickets.Find(id);
             if (ticket == null) throw new Exception("Not found");
-
-            if (ticket.UserId != userId && !isAdmin)
-                throw new Exception("Forbidden");
 
             ticket.Status = "Cancelled";
             _context.SaveChanges();

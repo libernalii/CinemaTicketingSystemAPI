@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vPWU9nxx3qg=",
+  "dgSpecHash": "C23DO6O1TwI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\CinemaStorage.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\CinemaSolution\\CinemaStorage\\CinemaStorage.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

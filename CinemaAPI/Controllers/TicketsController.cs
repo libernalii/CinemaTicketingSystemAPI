@@ -17,31 +17,27 @@ namespace CinemaAPI.Controllers
         }
 
         // Купити квиток
-        [Authorize]
+        //[Authorize]
         [HttpPost]
         public IActionResult Buy(CreateTicketRequest request)
         {
-            var userId = int.Parse(User.FindFirst("UserId").Value);
-
-            var ticket = _service.Buy(userId, request.MovieId);
+            var ticket = _service.Buy(request.UserId, request.MovieId);
 
             return Ok(ticket);
         }
 
         // Мої квитки
-        [Authorize]
-        [HttpGet("user")]
-        public IActionResult GetMy()
+        //[Authorize]
+        [HttpGet("user/{id}")]
+        public IActionResult GetMy(int id)
         {
-            var userId = int.Parse(User.FindFirst("UserId").Value);
-
-            var tickets = _service.GetUserTickets(userId);
+            var tickets = _service.GetUserTickets(id);
 
             return Ok(tickets);
         }
 
         // Всі квитки
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         [HttpGet]
         public IActionResult GetAll()
         {
@@ -50,14 +46,11 @@ namespace CinemaAPI.Controllers
         }
 
         // Скасування
-        [Authorize]
+        //[Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public IActionResult Cancel(int id)
         {
-            var userId = int.Parse(User.FindFirst("UserId").Value);
-            var isAdmin = User.IsInRole("Admin");
-
-            var result = _service.Cancel(id, userId, isAdmin);
+            var result = _service.Cancel(id);
 
             return Ok(result);
         }

@@ -7,6 +7,6 @@ namespace CinemaCore.Interfaces
         Ticket Buy(int userId, int movieId);
         List<Ticket> GetUserTickets(int userId);
         List<Ticket> GetAll();
-        Ticket Cancel(int id, int userId, bool isAdmin);
+        Ticket Cancel(int id);
     }
 }

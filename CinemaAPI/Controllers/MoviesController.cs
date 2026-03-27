@@ -25,7 +25,7 @@ namespace CinemaAPI.Controllers
         }
 
         // ТІЛЬКИ ADMIN
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         [HttpPost]
         public IActionResult Create(MovieRequest movie)
         {
@@ -34,7 +34,7 @@ namespace CinemaAPI.Controllers
         }
 
         // ТІЛЬКИ ADMIN
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
         public IActionResult Update(int id, MovieRequest movie)
         {
@@ -43,7 +43,7 @@ namespace CinemaAPI.Controllers
         }
 
         // ТІЛЬКИ ADMIN
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {

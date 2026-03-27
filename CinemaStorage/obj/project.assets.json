@@ -3818,11 +3818,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\CinemaStorage.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\CinemaSolution\\CinemaStorage\\CinemaStorage.csproj",
       "projectName": "CinemaStorage",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\CinemaStorage.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\CinemaSolution\\CinemaStorage\\CinemaStorage.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaStorage\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\CinemaSolution\\CinemaStorage\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3843,8 +3843,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaCore\\CinemaCore.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Desktop\\CinemaAPI\\CinemaSolution\\CinemaCore\\CinemaCore.csproj"
+            "C:\\Users\\Admin\\Desktop\\CinemaSolution\\CinemaCore\\CinemaCore.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\CinemaSolution\\CinemaCore\\CinemaCore.csproj"
             }
           }
         }
